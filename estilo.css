@@ -1,0 +1,40 @@
+body{
+	background-color: white;
+	font-family: arial;
+	
+}
+
+table{
+	background-color: #bfbfbf;
+		
+}	
+
+th{
+		background-color: #ed8b00;
+		font: arial;
+		color: white;
+		border: 1px solid #CCCCCC;
+}	
+
+tr{
+		background-color: #f0f0f0;
+		font: arial;
+		color: black;
+		border: 1px solid #CCCCCC;
+		border-color: white;
+}	
+
+#total{
+	width:400px;	
+	height:210px;
+	margin: auto;
+	border:solid #DDD 1px;	
+}
+
+#tabela{
+	text-align:center;
+	position: relative;
+	left:40px;
+	top:30px;
+	width:400px;	
+}	

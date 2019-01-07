@@ -1,0 +1,359 @@
+#total{
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding-top:5px;
+	margin:auto;
+	font:"Calibri";
+}
+
+body{
+	background-color:white;
+	text-align:center;
+	font-family:"Calibri";
+		
+}
+
+
+
+table{
+	border-collapse:collapse;
+	width: 100%;
+	text-align:center;	
+	
+	
+}
+
+table, td{
+	border: 1px solid #CCCCCC;
+	font-family:"Calibri";
+}
+
+th{
+	background-color:#CFCFCF;
+	text-decoration:none;
+	height: 25px;
+	font-family:Calibri;
+	
+}
+	  
+
+#fundo_login{
+	height:414px;
+	width:614px;
+	background-image:url(../img/fundo_login.png);
+	margin:auto;
+	margin-top:100px;
+	
+}
+div.row {
+  clear: both;
+  padding-top: 5px;
+  }
+  
+div.row2 {
+  clear: both;
+  padding-top: 5px;
+  padding-left:70px;
+  }
+  
+div.row span.label {
+  float: left;
+  width: 125px;
+  text-align: left;
+  padding-left:15px;
+  }
+
+div.row span.formw {
+  float: rigth;
+  width: 235px;
+  text-align: left;
+  } 
+  
+#login{
+	width:310px;
+	height:150px;
+	font-family:"Calibri";
+	font-size:11px;
+	text-align:center;
+	padding-top:250px;
+}
+
+#erro{
+	width:310px;
+	height:150px;
+	font-family:"Calibri";
+	font-size:11px;
+	text-align:center;
+	padding-top:270px;
+	padding-left:140px;
+		
+}
+
+#banner{
+	width:100%;	
+	height:130px;
+	float:center;
+	background-color:#414141;
+	border:solid #DDD 1px;
+	
+}
+
+#conteudo{
+	width:auto;
+	float:center;
+	border:solid #DDD 1px;	
+	padding-top:55px;
+	padding-bottom: 20px;
+}
+
+#conteudo_index{
+	width:auto;
+	float:center;
+	border:solid #DDD 1px;	
+	padding-top:55px;
+	padding-bottom: 20px;
+}
+
+.menu{
+	border:none;
+	float:left;
+	width:100%;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	}
+.menu ul{
+	background:#D1D1D1;
+	height:35px;
+	width:auto;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.menu li{
+		float:left;
+		padding:0px;
+		margin-left:0px;
+		}
+	.menu li a{
+		background:#D1D1D1 url("images/seperator.gif") bottom right no-repeat;
+		color:black;
+		display:block;
+		font-weight:normal;
+		line-height:35px;
+		margin:0px;
+		padding:0px 35px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.menu li a:hover, .menu ul li:hover a{
+			background: #9a9a9a url("images/hover.gif") bottom center no-repeat;
+			color:black;
+			text-decoration:none;
+			}
+	.menu li ul{
+		background:#D1D1D1;
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu li:hover ul{
+		display:block;
+		
+		}
+	.menu li li {
+		background:url('images/sub_sep.gif') bottom left no-repeat;
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:225px;
+		}
+	.menu li:hover li a{
+		background:none;
+		
+		}
+	.menu li ul a{
+		display:block;
+		height:35px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.menu li ul a:hover, .menu li ul li:hover a{
+			background:#9a9a9a url('images/hover_sub.gif') center left no-repeat;
+			border:0px;
+			color:white;
+			text-decoration:none;
+			}
+	.menu p{
+		clear:left;
+		
+	
+		}
+#flash{
+	width:940px;
+	margin:auto;
+	float:left;	
+	background-color:#0b4d8a;
+	
+
+}
+#inferior{
+	width:940px;
+	height:119px;
+	background-image:url(../images/inferior.png);
+	float:left	
+}
+
+#inferior2{
+	width:940px;
+	height:200px;
+	background-image:url(../images/fundo_inferior.png);
+	float:left;	
+}
+
+#conteudo_missao{
+	width:940px;
+	height:460px;
+	background-color:#0b4d8a;
+	float:left;
+	font-family:Verdana;
+	color:white;
+	text-align:justify;
+}
+
+#conteudo_hosp{
+	width:940px;
+	height:200px;
+	background-color:#0b4d8a;
+	float:left;
+	font-family:Verdana;
+	color:white;
+	text-align:justify;
+}
+
+#conteudo_base{
+	width:940px;
+	height:1500px;
+	background-color:#0b4d8a;
+	float:left;
+	font-family:Verdana;
+	color:white;
+	text-align:justify;
+}
+
+#conteudo_base_2{
+	float:left;
+	font-family:Verdana;
+	color:white;
+	text-align:justify;
+	width:900px;
+	height:1500px;
+	margin-left:20px;
+	
+}
+
+#conteudo_reboque{
+	width:940px;
+	height:200px;
+	background-color:#0b4d8a;
+	float:left;
+	font-family:Verdana;
+	color:white;
+	text-align:justify;
+}
+#conteudo2{
+	float:left;
+	font-family:Verdana;
+	color:white;
+	text-align:justify;
+	width:900px;
+	height:400px;
+	margin-left:20px;
+	
+}
+
+#conteudo_contato{
+	float:left;
+	font-family:Verdana;
+	color:white;
+	text-align:justify;
+	width:900px;
+	margin-left:20px;
+	margin-top:40px;
+	
+}
+
+#foto_conheca{
+	width:940px;
+	height:220px;
+	background-image:url(../images/conheca.png);
+	float:left;	
+	
+}
+
+#foto_inteligencia{
+	width:940px;
+	height:220px;
+	background-image:url(../images/inteligencia.png);
+	float:left;	
+	
+}
+
+#foto_infra{
+	width:940px;
+	height:220px;
+	background-image:url(../images/infra.png);
+	float:left;	
+	
+}
+
+#foto_missao{
+	width:940px;
+	height:220px;
+	background-image:url(../images/missao.png);
+	float:left;	
+	
+}
+#foto_transporte{
+	width:940px;
+	height:220px;
+	background-image:url(../images/transporte.png);
+	float:left;
+	
+}
+#foto_contato{
+	width:940px;
+	height:220px;
+	background-image:url(../images/contato.png);
+	float:left;
+	
+}
+#foto_bases{
+	width:940px;
+	height:220px;
+	background-image:url(../images/bases.png);
+	float:left;
+	
+}
+#foto_reboque{
+	width:940px;
+	height:220px;
+	background-image:url(../images/reboque.png);
+	float:left;
+	
+}
